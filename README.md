@@ -6,5 +6,5 @@ Anyone with an interest in programming that finds the idea of buliding a game en
 Big thanks to *Casey Muratori* for your time and effort in developing this project. 
 
 # Day 1: Setting Up the Windows Build
-**Install Visual Studio 2019 and Code::Blocks 
-**WinMain: Entry of Windows program
+* Install Visual Studio 2019 and Code::Blocks 
+* WinMain: Entry of Windows program
