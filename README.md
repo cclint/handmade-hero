@@ -1,7 +1,7 @@
 # Intro
 This is a collection of personal notes following [Handmade Hero](https://handmadehero.org/).
 
-Anyone with an interest in programming that finds the idea of buliding a game engine from scratch to be exciting, then I highly recommend following *Casey Muratori's* Handmade Hero series. 
+Anyone with an interest in programming that finds the idea of buliding a game engine from scratch to be exciting, I highly recommend following *Casey Muratori's* Handmade Hero series. 
 
 Big thanks to *Casey Muratori* for your time and effort in developing this project. 
 
