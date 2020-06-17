@@ -56,5 +56,34 @@ int CALLBACK WinMain(
  // WindowClass.hIcon;
   WindowClass.lpszClassName = "HandmadeHeroWindowClass ";
 
+    if(RegisterClass(&WindowClass)
+    {
+          HWND WindowHandle =
+          CreateWindowEx(
+            0,
+            WindowClass.lpszClassName,
+            "Handmade Hero",
+            WS_OVERLAPPEDWINDOW|WS_VISIBLE,
+            CS_USEDEFAULT,
+            CS_USEDEFAULT,
+            CS_USEDEFAULT,
+            CS_USEDEFAULT,
+            0,
+            0,
+            Instance,
+            0);
+
+            if(WindowHandle)
+            {
+
+            }
+            else
+            {
+            }
+    }
+    else
+    {
+        // TODO: Logging
+    }
     return(0);
 }
