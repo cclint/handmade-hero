@@ -7,6 +7,33 @@ LRESULT CALLBACK MainWindowCallback(
    LPARAM LParam
 )
 {
+    switch(Message)
+    {
+    case WM_SIZE:
+        {
+
+        } break;
+
+    case WM_DESTROY:
+        {
+
+        } break;
+    case WM_CLOSE:
+        {
+
+        } break;
+    case WM_ACTIVATEAPP:
+        {
+
+        } break;
+
+     default:
+        {
+
+        }break;
+
+    }
+
 
 }
 
