@@ -1,31 +1,29 @@
 #include <windows.h>
 
-typedef struct tagWNDCLASSA {
-  UINT      style;
-  WNDPROC   lpfnWndProc;
-  int       cbClsExtra;
-  int       cbWndExtra;
-  HINSTANCE hInstance;
-  HICON     hIcon;
-  HCURSOR   hCursor;
-  HBRUSH    hbrBackground;
-  LPCSTR    lpszMenuName;
-  LPCSTR    lpszClassName;
-} WNDCLASSA, *PWNDCLASSA;
+LRESULT CALLBACK MainWindowCallback(
+   HWND   Window,
+   UINT   Message,
+   WPARAM WParam,
+   LPARAM LParam
+)
+{
 
-
+}
 
 
 int CALLBACK WinMain(
-        HINSTANCE hInstance,
-        HINSTANCE hPrevInstance,
-        LPSTR lpCmdLine,
-        int nCmdShow)
+        HINSTANCE Instance,
+        HINSTANCE PrevInstance,
+        LPSTR CommandLine,
+        int ShowCode)
 {
-
-
-
-    WNDCLASS
+    WNDCLASS WindowClass = {};
+  // TODO(clint): Check if HREDRAW/VREDRAW/OWNDC still matter
+  WindowClass.style = CS_OWNDC|CS_HREDRAW|CS_VREDRAW;
+  WindowClass.lpfnWndProc = MainWindowCallback; // handles messages coming from windows
+  WindowClass.hInstance = Instance;
+ // WindowClass.hIcon;
+  WindowClass.lpszClassName = "HandmadeHeroWindowClass ";
 
     return(0);
 }
