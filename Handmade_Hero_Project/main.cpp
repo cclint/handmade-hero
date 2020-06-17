@@ -1,5 +1,20 @@
 #include <windows.h>
 
+typedef struct tagWNDCLASSA {
+  UINT      style;
+  WNDPROC   lpfnWndProc;
+  int       cbClsExtra;
+  int       cbWndExtra;
+  HINSTANCE hInstance;
+  HICON     hIcon;
+  HCURSOR   hCursor;
+  HBRUSH    hbrBackground;
+  LPCSTR    lpszMenuName;
+  LPCSTR    lpszClassName;
+} WNDCLASSA, *PWNDCLASSA;
+
+
+
 
 int CALLBACK WinMain(
         HINSTANCE hInstance,
@@ -7,8 +22,10 @@ int CALLBACK WinMain(
         LPSTR lpCmdLine,
         int nCmdShow)
 {
-    MessageBox(0,"This is Handmade Hero.","Handmade Hero",
-               MB_OK|MB_ICONINFORMATION);
+
+
+
+    WNDCLASS
 
     return(0);
 }
