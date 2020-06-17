@@ -8,3 +8,4 @@ Big thanks to *Casey Muratori* for your time and effort in developing this proje
 # Day 1: Setting Up the Windows Build
 * Install Visual Studio 2019 and Code::Blocks (Code::Blocks is not required)
 * WinMain: Entry of Windows program
+* MessageBox: Show a message box
