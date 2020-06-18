@@ -9,3 +9,5 @@ Big thanks to *Casey Muratori* for your time and effort in developing this proje
 * Install Visual Studio 2019 and Code::Blocks (Code::Blocks is not required)
 * WinMain: Entry of Windows program
 * MessageBox: Show a message box
+
+# Day 2: TODO
